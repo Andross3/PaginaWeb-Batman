@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de registro - Mi web.</title>
+    <title>Formulario de registro 2 - Mi web.</title>
 </head>
 
 <body>
-    <h1>Formulario de registro</h1>
+    <h1>Formulario de registro 2</h1>
     <form action="" method="get">
         <fieldset>
             <label>Nombre:</label>
             <input type="text" maxlength="50" /><br><br>
-
+            
             <label>Apellido</label>
             <input type="text" maxlength="50" /><br><br>
             
@@ -24,17 +24,32 @@
             
             <label>Correo: </label>
             <input type="email" /><br><br>
+
+            <label>Poblacion: </label>
+            <select>
+                <option value="Alicante">Alicante</option>
+                <option value="Barca">Barca</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Valencia">Valencia</option>
+            </select><br><br>
+
+            <label>Descripcion: </label>
+            <textarea cols="70" rows="8" ></textarea><br><br>
+
             <input type="checkbox" checked>
-            <label for="">Deseo recibir informacion sobre novedades y ofertas.</label>
+            <label>Deseo recibir informacion sobre novedades y ofertas.</label>
             <br><br>
-            <input type="checkbox" />
             
-            <label for="">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre
+            <input type="checkbox" />
+            <label>Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre
                 proteccion de datos.</label>
             <br><br>
+
             <input type="submit" value="Enviar">
+        
         </fieldset>
 
     </form>
 </body>
+
 </html>
