@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap');
+
+/*letra por defecto*/
+body {
+    font-family: Ysabeau SC;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+/*la imagen de fondo*/
+body {
+    background-image: url(https://i.pinimg.com/originals/0f/50/a9/0f50a946be39f536c680479d0cdc1c5f.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/*modificar la letra del*/
+h2 {
+    font-family: andes;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+img {
+    border-radius: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*tipo de fuente andes*/
+@font-face {
+    font-family: andes;
+    src: url(Fuentes/Andes.ttf);
+}
+
+/*ajustando el*/
+.encabezado {
+    padding: 30px;
+    text-align: center;
+}
+
+/*ajustando la letra del*/
+.encabezado h1 {
+    font-family: andes;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+/*poniendo la imagen del*/
+.encabezado {
+    background-image: url("Imagenes/a1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+/*dando color al*/
+.navegador {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*modificando las letras del*/
+.navegador a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: andes;
+    font-size: 30px;
+}
+
+/*dando efecto al*/
+.navegador a:hover {
+    background-color: rgb(167, 74, 69);
+    color: black;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria div>img {
+    max-width: 100%;
+    display: block;
+}
+
+.galeria div {
+    margin: 10px;
+    flex-basis: 180px;
+}
+
+/*HISTORIA*/
+/*dar background*/
+.cont1 {
+    background-color: rgba(0, 0, 0, 0.742);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/*modificar letra de*/
+.contAutores a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+/*separando a*/
+.contAutores {
+    padding: 50px;
+    text-align: center;
+}
+
+/*poniendo fondo*/
+.autor {
+    background-color: rgba(0, 0, 0, 0.742);
+    border: rgb(255, 255, 255) 2px solid;
+    width: 300px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.imgC {
+    text-align: center;
+}
+
+/*dar background*/
+.cont2 {
+    background-color: rgba(0, 0, 0, 0.742);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+/*VILLANOS*/
+.galeria img {
+    min-width: 300px;
+    border-radius: 50px;
+}
+
+.imagenV {
+    background-color: rgba(0, 0, 0, 0.742);
+    border: rgb(91, 89, 89) 0.1px solid;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+/*Registrar*/
+.formulario {
+    background-color: rgba(0, 0, 0, 0.742);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
+.titulo {
+    padding: 10px;
+}
+
+.boton {
+    background-color: rgb(56, 56, 56);
+    border: rgb(35, 35, 35) 1px solid;
+    font-size: 25px;
+    margin: 15px;
+    color: white;
+    font-family: Ysabeau SC;
+    border-radius: 10px;
+}
+
+/*letras del boton*/
+.boton:hover {
+    background-color: rgb(242, 242, 242);
+    color: black;
+}
+
+.casilla {
+    background-color: rgba(12, 21, 37, 0.742);
+    color: white;
+    font-family: Ysabeau SC;
+    font-size: 25px;
+}
+
+#archivo {
+    display: none;
+}
+
+.contenedorArchivo {
+    background: rgb(56, 56, 56);
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 15px;
+}
+
+.contenedorArchivo:hover {
+    background-color: rgb(242, 242, 242);
+    color: black;
+}
+
+/*COMICS*/
+/*modificar letra de*/
+.descripcion {
+    font-family: andes;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+/*modificar las imagenes*/
+.galeriaC {
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: rgba(0, 0, 0, 0.742);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/*centrar las letras de*/
+.descripcionC {
+    text-align: center
+}
+
+.descripcionC {
+    background-color: rgba(94, 94, 94, 0.315);
+}
+
+/*pie de pagina*/
+.pie{
+    background-color: rgba(2, 2, 2, 0.9);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.redesSociales{
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.redesSociales a {
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.redesSociales:hover a{
+    filter: blur(2px);
+}
+
+.redesSociales a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(100, 222, 222);
+    filter: none;
+}
+
+.facebook:hover{
+    background-color: blue;
+}
+
+.instagram:hover{
+    background-color: rgb(255, 0, 43);
+}
+
+.twitter:hover{
+    background-color: rgb(0, 187, 255);
+}
+
+.whatsapp:hover{
+    background-color: rgb(59, 215, 59);
+}
+
