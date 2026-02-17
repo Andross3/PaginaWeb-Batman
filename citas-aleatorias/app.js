@@ -8,7 +8,7 @@ async function getPhrase(){
     try {
         const response = await fetch('https://www.positive-api.online/phrase/esp')
         const data = await response.json()
-        // cambiamos la frase y el autor
+        // obtenemos la frase y el autor
         phrase.innerText = `"${data.text}"`
         author.innerText = await searchAuthor(data.author_id)
     } catch (error) {
