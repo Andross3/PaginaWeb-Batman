@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url("https://www.davidmonedero.com/wp-content/uploads/2017/11/ciudad_cyberpunk_fondo.jpg") no-repeat center center/cover;
+}
+
+#btn-play{
+    background-color: rgba(29, 206, 29, 0.705);
+}
+
+#btn-pause{
+    background-color: rgba(222, 11, 11, 0.918);
+}
+
+#btn-replay{
+    background-color: rgba(131, 101, 208, 0.928);
+}
+
+button {
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+}
+
+.external-container{
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
