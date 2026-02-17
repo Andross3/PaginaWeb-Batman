@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: url("https://p4.wallpaperbetter.com/wallpaper/829/861/82/nebula-space-digital-universe-hd-wallpaper-preview.jpg") no-repeat center center/cover;
+}
+
+.external-container {
+  background-color: white;
+  border-radius: 10px;
+  border: 4px solid skyblue;
+}
+
+.internal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+#button-phrase {
+  background-color: aqua;
+  font-size: 20px;
+  border-radius: 10px;
+  color: rgb(82, 105, 155);
+  border: none;
+  height: 40px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
